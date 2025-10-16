@@ -1,0 +1,62 @@
+# Build directories
+Debug/
+Release/
+build/
+bin/
+obj/
+
+# Object files and archives
+*.o
+*.a
+*.ar
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Executables
+*.elf
+*.hex
+*.bin
+
+# IDE and editor files
+.cproject
+.project
+.settings/
+*.launch
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# STM32CubeIDE specific
+.metadata/
+RemoteSystemsTempFiles/
+local.properties
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Dependencies and package managers
+*.pyc
+__pycache__/
+node_modules/
+.venv/
+venv/
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+
+# Compiler output
+*.d
+*.su
+*.cyclo
+
+# Generated files
+*.list
